@@ -1,0 +1,92 @@
+body{
+    margin:0px;
+    padding:0px;
+
+}
+#body{
+    border:1px solid red;
+    height:200px;
+    width:700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display:none;
+
+}
+#body2{
+    border:1px solid red;
+    height:200px;
+    width: 700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    display:none;
+}
+
+.circle{
+    width: 100px;
+    height:100px;
+    border:1px solid red;
+    border-radius:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.triangle{
+    width: 0;
+    height: 100;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid red;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid red;
+    /* background: red; */
+}
+.rectangle{
+    width: 200px;
+    height: 100px;
+    border:1px solid red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+.basic{
+    width:200px;
+    border: 1px solid red;
+    /* display: flex; */
+    text-align: center;
+}
+.adv{
+    width:200px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.ultra{
+    width:200px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.pro{
+    width:200px;
+    border: 1px solid red;
+    text-align: center;
+}
+button{
+    height:100px;
+    width: 100px;
+    margin:20px;
+}
