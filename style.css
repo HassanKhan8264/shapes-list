@@ -16,12 +16,25 @@ body{
 }
 #body2{
     border:1px solid red;
-    height:200px;
-    width: 700px;
+    /* height:200px; */
+    width: 800px;
     display:flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    display:none;
+}
+#body3{
+    border:1px solid red;
+    /* height:700px; */
+    width: 600px;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    position:absolute;
+    right:30px;
+    top:50px;
     display:none;
 }
 
@@ -62,26 +75,26 @@ body{
     align-items: center;
     /* background: red; */
 }
-.basic{
-    width:200px;
+.e1{
+    width:500px;
     border: 1px solid red;
     /* display: flex; */
     text-align: center;
 }
-.adv{
-    width:200px;
+.e2{
+    width:500px;
     border: 1px solid red;
     text-align: center;
 }
 
-.ultra{
-    width:200px;
+.e3{
+    width:500px;
     border: 1px solid red;
     text-align: center;
 }
 
-.pro{
-    width:200px;
+.e4{
+    width:500px;
     border: 1px solid red;
     text-align: center;
 }
@@ -89,4 +102,7 @@ button{
     height:100px;
     width: 100px;
     margin:20px;
+}
+h1{
+    /* font-size:30px; */
 }
